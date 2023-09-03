@@ -1,25 +1,14 @@
 from setuptools import setup
 from setuptools import find_packages
 
-# Load the README file.
-# with open(file="README.md", mode="r") as readme_handle:
-#     long_description = readme_handle.read()
-
 setup(
-    name='streamlit_login_auth_ui',
-
-    author='Md. Mahir Labib',
-
-    author_email='mdmahirlabib@gmail.com',
+    name='streamlit_stock_project',
 
     version='0.1.0',
 
-    description='A streamlit library which provides a Login/Sign-Up UI with an option to reset password, also supports cookies.',
-
-    # long_description=long_description,
+    description='Streamlit project',
 
     long_description_content_type="text/markdown",
-
 
     install_requires=[
         'streamlit',
@@ -33,7 +22,6 @@ setup(
     keywords='streamlit, machine learning, login, sign-up, authentication, cookies',
 
     packages=find_packages(),
-
 
     include_package_data=True,
 

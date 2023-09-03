@@ -240,5 +240,3 @@ def check_current_passwd(email_reset_passwd: str, current_passwd: str) -> bool:
                 except:
                     pass
     return False
-
-# Author: Md. Mahir Labib

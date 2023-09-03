@@ -329,6 +329,4 @@ class __login__:
         
         return st.session_state['LOGGED_IN']
 
-# Author: Md. Mahir Labib
-
 
