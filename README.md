@@ -1,8 +1,16 @@
 
 HOW TO INSTALL ALL LIBRARIES:
-python3.10 -m venv venv
-source venv/bin/activate
-python3.10 -m pip install -r requirement.txt
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirement.txt
+
+HOW TO RUN:
+streamlit run app.py
+
+How to setup vscode:
+Click: Ctrl + Shift + P
+Enter: Python: Select Interpreter
+Select: .venv/bin/python3 or .venv/bin/python3.10
 
 # Streamlit Login/ Sign Up Library   [![Downloads](https://static.pepy.tech/personalized-badge/streamlit-login-auth-ui?period=month&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/streamlit-login-auth-ui)
 
